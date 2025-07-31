@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+*.log
+*.sqlite3
+*.db
+*.venv
+venv/
+env/
+.env*
+.venv*
+Pipfile.lock
+poetry.lock
+pyproject.toml.lock
+
+# VSCode
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Output, cache, and temp files
+logs/
+TempFile/
+Report/MacroReport/*.*
+Report/StrategyReport/*.*
+LightRAG/
+MinerU/
+financial_rag/financial_reports/
+financial_output/*.*
+
+# Docker
+*.pid
+docker-compose.override.yml
+
+# Node.js
+lib/bindings/node_modules/
+
+# HTML/JS build
+*.bundle.js
+*.min.js
+*.map
+
+# Misc
+*.bak
+*.swp
+*.tmp
+*~

@@ -1,0 +1,37 @@
+{
+    "bucket_info": {
+        "bucket-name-1": [
+            "ak",
+            "sk",
+            "endpoint"
+        ],
+        "bucket-name-2": [
+            "ak",
+            "sk",
+            "endpoint"
+        ]
+    },
+    "latex-delimiter-config": {
+        "display": {
+            "left": "$$",
+            "right": "$$"
+        },
+        "inline": {
+            "left": "$",
+            "right": "$"
+        }
+    },
+    "llm-aided-config": {
+        "title_aided": {
+            "api_key": "ollama",
+            "base_url": "http://localhost:11434/v1",
+            "model": "qwen2.5vl:3b-q4_K_M",
+            "enable": true
+        }
+    },
+    "models-dir": {
+        "pipeline": "/Users/aaronliang/.cache/modelscope/hub/models/OpenDataLab/PDF-Extract-Kit-1___0",
+        "vlm": "/Users/aaronliang/.cache/modelscope/hub/models/OpenDataLab/MinerU2___0-2505-0___9B"
+    },
+    "config_version": "1.3.0"
+}

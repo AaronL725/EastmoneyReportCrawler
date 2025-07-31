@@ -1,0 +1,13 @@
+requests
+tqdm
+beautifulsoup4
+loguru
+python-dotenv
+mineru[core]>=2.0.0
+lightrag-hku>=0.2.0
+raganything>=0.1.0
+pypdfium2
+Pillow
+# 下面依赖根据实际模型和环境可选
+modelscope  # mineru解析模型下载
+# 如需本地大模型推理，需安装 ollama 客户端并配置模型
